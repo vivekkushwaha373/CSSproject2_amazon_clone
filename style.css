@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    display:flex;
+    padding-top:4px;
+    background-color: #0f1111;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.searchbar{
+    display:flex;
+    padding-left:9px;
+    /* width:620px; */
+    height:40px;
+    /* background-color: #E6E6E6; */
+
+}
+.navlogo{
+    width:113px;
+    /* height:50px; */
+    padding: 1px 8px 0px 6px;
+    /* top right bottom left */
+    text-align: center;
+}
+.navlogo img{
+    width:99px;
+    /* filter:contrast(85%); */
+    height:49px;
+}
+.border:hover{
+    border:2px solid white;
+}
+.nav-address{
+    width:90.64px;
+    /* height:50px; */
+    margin-bottom: 4px;
+    text-align: center;
+    padding:3px 0px 0px 4px
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+    gap:3px;
+    font-weight:bold;
+    
+}
+.search-select{
+    background-color: #E6E6E6;
+    color:#0f1111;
+    width:50px;
+    padding-left:5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-input{
+    width:727px;
+    padding-left:6px;
+    font-size:medium;
+}
+.search-icon{
+    padding-top:11px;
+    width:45px;
+    font-size: larger;
+    text-align: center;
+    color:black;
+    background-color:#ff9900;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.mylist{
+    background-color: #0f1111;
+    color:white;
+    font-size:14px;
+    font-weight: bold;
+}
+span {
+  font-size:12px;
+}
+.nav-return .order{
+    font-weight:bold;
+    font-size:14px;
+    
+}
+.nav-return{
+    padding: 0px 9px 10px;
+}
+.nav-signin{
+    padding: 0px 9px 10px;
+}
+.nav-cart i {
+    font-size:30px;
+}
+.nav-cart {
+    font-size:14px;
+    font-weight: 700;
+    padding: 0px 9px 10px;
+}
+
+.panel{
+    display:flex;
+    padding:0px 0px 0px 11px;
+    height:40px;
+    background-color: #232F3E;
+    color:#0F1111;    
+}
+.panel-ops{
+    display:flex;
+    color:#ffffff;    
+}
+.panel-ops p{
+   padding: 8px 9px;
+   font-size:14px;
+}
+.panel-all{
+    padding:8px 9px;
+    color:#ffffff;
+}
+.hero-section{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    padding:20px 0px 0px 20px;
+    row-gap: 20px;
+}
+
+.herosection{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    object-fit: fill;
+    /* background-size:cover; */
+    width:1483px;
+    height:297px;
+    margin-top: 20px;
+}
+.hero-section img{
+   height:355.8px;
+   width:355.8px;
+   /* justify-items: stretch; */
+}
+.myherosection{
+    padding:0px 0px 0px 20px;
+}
+.finalimage{
+   padding:20px 20px 20px 20px;
+
+}
+.finalimage img{
+    width:1483px;
+}
+.footer_section{
+    background-color: #374758;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-align:center;
+    margin-top:50px;
+    font-size:13px;
+}
+.navigation{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #232f3E;
+    height:418px;
+    padding-top:50px;
+    color:#ffffff;
+}
+ul {
+    list-style-type: none;
+}
+.navigation p,ul{
+  display:inline;
+}
+.navigation p{
+    font-weight:bold;
+}
+ul{
+    color:#DDDDDD;
+}
+ul li{
+    margin:10px;
+}
+.amazon-div{
+ /* padding-top: 10px;
+ padding-bottom:10px;
+ padding-left: 259.6px;
+ padding-right:259.6px; */
+ height:110px;
+ background-color: #232f3E;
+ border:1px solid #DDDDDD;
+}
+.myimg img{
+    width:90px;
+    height:68px;
+
+}
+.myimg {
+    height:100px;
+}
+.wrapper{
+    display:flex;
+    gap:7px;
+    height:100px;
+    padding-top:20px;
+}
+.othernavigation{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100px;
+    gap:70px;
+    margin-top:10px;
+
+}
+.div03 img{
+    height:18px;
+    width:12px;
+    object-fit: fill;
+}
+.div03 {
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap:5px;
+}
+.div01, .div03, .div02{
+    border:1px solid #DDDDDD;
+    border-radius: 3px;
+    height:22px;
+    font-size:13px;
+    color:#DDDDDD;
+    padding:6px 18px 6px 8px;
+}
+.last-footer{
+    background-color: #131A22;
+    /* height:77.2px; */
+    color:#DDDDDD;
+    font-size:12px;
+    padding:10px 0px 30px;
+    text-align: center;
+}
+
+.last-footer a{
+    margin-right:10px;
+    text-decoration: none;
+    color:#DDDDDD;
+}
+
